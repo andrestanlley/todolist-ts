@@ -12,7 +12,7 @@ export default function Modal ({children}:Props){
         modal?.classList.add("hide")
     }
     return (
-        <div id="modal">
+        <div id="modal" className='hide'>
             <div className={styles.fade} onClick={closeModal}>
 
             </div>
